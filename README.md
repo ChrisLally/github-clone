@@ -2,7 +2,7 @@
 
 A modern, responsive GitHub UI clone built with Next.js, React, and Tailwind CSS. This project aims to recreate the GitHub interface with high fidelity while maintaining a clean, modular codebase.
 
-![GitHub Clone Preview](public/ChrisLally-GitHub-Clone.mp4)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Make your <a href="https://twitter.com/lovable_dev?ref_src=twsrc%5Etfw">@lovable_dev</a> / Bolt / v0 / Cursor / Replit websites look beautiful <a href="https://t.co/1WmNXPlphl">pic.twitter.com/1WmNXPlphl</a></p>&mdash; Daniel Dhawan (@daniel_dhawan) <a href="https://twitter.com/daniel_dhawan/status/1872766766910455989?ref_src=twsrc%5Etfw">December 27, 2024</a></blockquote>
 
 ## 🚀 Live Demo
 
@@ -124,4 +124,5 @@ SOFTWARE.
 - [GitHub UI Kit](https://www.figma.com/community/file/1235155662725718346) for the design reference
 - [v0.dev](https://v0.dev) for initial component generation
 - [Cursor](https://cursor.sh/) for code editing and refinement
-- [Vercel](https://vercel.com) for hosting the application 
+- [Vercel](https://vercel.com) for hosting the application
+- [Daniel Dhawan](https://twitter.com/daniel_dhawan) for the Twitter showcase 
