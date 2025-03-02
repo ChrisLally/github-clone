@@ -1,35 +1,28 @@
 # GitHub Clone
 
-A modern, responsive GitHub UI clone built with Next.js, React, and Tailwind CSS. This project aims to recreate the GitHub interface with high fidelity while maintaining a clean, modular codebase.
+A modern, responsive GitHub UI clone built with Next.js 15, React, Tailwind CSS 3, and shadcn/ui components. This project aims to recreate the GitHub interface with a focus on clean code and component-based architecture.
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Make your <a href="https://twitter.com/lovable_dev?ref_src=twsrc%5Etfw">@lovable_dev</a> / Bolt / v0 / Cursor / Replit websites look beautiful <a href="https://t.co/1WmNXPlphl">pic.twitter.com/1WmNXPlphl</a></p>&mdash; Daniel Dhawan (@daniel_dhawan) <a href="https://twitter.com/daniel_dhawan/status/1872766766910455989?ref_src=twsrc%5Etfw">December 27, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+![GitHub Clone Screenshot](https://github.com/ChrisLally/github-clone/public/screenshot.png)
 
-## 🚀 Live Demo
+## Live Demo
 
 Check out the live demo deployed on Vercel: [GitHub Clone](https://github-clone-vercel.app)
 
-## ✨ Features
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChrisLally%2Fgithub-clone)
 
-- Responsive design that works on mobile, tablet, and desktop
-- Dark mode UI matching GitHub's design system
-- Modular component architecture
-- Pull requests page with filtering options
-- Profile view
-- And more!
+## Tech Stack
 
-## 🛠️ Tech Stack
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS 3](https://tailwindcss.com/)
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com/) (Headless UI components)
+- **Deployment**: [Vercel](https://vercel.com/)
 
-- [Next.js](https://nextjs.org/) - React framework
-- [React](https://reactjs.org/) - UI library
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [Lucide Icons](https://lucide.dev/) - Beautiful open-source icons
-
-## 🏁 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- Node.js (v16 or newer)
-- pnpm package manager
+- Node.js (v16 or later)
+- pnpm (v7 or later) or npm (v8 or later)
 
 ### Installation
 
@@ -42,46 +35,57 @@ cd github-clone
 
 2. Install dependencies:
 
+Using pnpm (recommended):
 ```bash
-pnpm i
+pnpm install
+```
+
+Or using npm:
+```bash
+npm install
 ```
 
 3. Start the development server:
 
+Using pnpm:
 ```bash
 pnpm dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+Or using npm:
+```bash
+npm run dev
+```
 
-## 🧩 Project Structure
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+## Project Structure
 
 ```
-github-clone/
 ├── app/                  # Next.js app directory
 ├── components/           # React components
-│   ├── header.tsx        # Site header
+│   ├── header.tsx        # Header component
 │   ├── pull-requests/    # Pull requests components
-│   └── ...
+│   └── ...               # Other components
 ├── public/               # Static assets
 └── ...
 ```
 
-## 🔄 Development Process
+## Development Process
 
-This project was built using the following workflow:
+This project was built using the following process:
 
-1. **Design Reference**: Components were based on the free [GitHub UI Kit](https://www.figma.com/community/file/1235155662725718346) from Figma.
+1. **Design Inspiration**: Components were designed based on the free [GitHub UI Kit](https://www.figma.com/community/file/1235155662725718346) available on Figma.
 
-2. **Initial Component Generation**: Used [v0.dev](https://v0.dev) to generate the initial component code based on the design.
+2. **Component Generation**: Initial components were generated using [v0.dev](https://v0.dev), an AI-powered component generator. lovable.com, bolt.new and others could also be worth trying!
 
-3. **Code Refinement**: Used [Cursor](https://cursor.sh/) to clean up and refactor the generated code into modular components.
+3. **Code Refinement**: Components were then refined and optimized using [Cursor](https://cursor.sh), an AI-powered code editor, to ensure clean, maintainable code. Windsurf and others could also be worth trying!
 
-4. **Deployment**: Deployed the application on Vercel for easy access and sharing.
+4. **Component Architecture**: The codebase was structured into modular, reusable components following React best practices.
 
-## 👥 Contributing
+## Contributing
 
-Contributions are welcome and appreciated! Here's how you can contribute:
+Contributions are welcome and encouraged! Here's how you can contribute:
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -89,16 +93,22 @@ Contributions are welcome and appreciated! Here's how you can contribute:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-Please ensure your code follows the project's style and includes appropriate tests.
+Please ensure your code follows the project's style guidelines and includes appropriate tests.
 
-## 📝 License
+## Roadmap
+
+- [ ] Add authentication
+- [ ] Implement repository view
+- [ ] Add issues page
+- [ ] Create profile page
+- [ ] Add dark/light theme toggle
+
+## License
 
 This project is licensed under the MIT License - see below for details:
 
 ```
 MIT License
-
-Copyright (c) 2023 Chris Lally
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -119,10 +129,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## 🙏 Acknowledgements
+## Acknowledgments
 
-- [GitHub UI Kit](https://www.figma.com/community/file/1235155662725718346) for the design reference
+- [GitHub UI Kit](https://www.figma.com/community/file/1235155662725718346) for design inspiration
 - [v0.dev](https://v0.dev) for initial component generation
-- [Cursor](https://cursor.sh/) for code editing and refinement
-- [Vercel](https://vercel.com) for hosting the application
-- [Daniel Dhawan](https://twitter.com/daniel_dhawan) for the Twitter showcase 
+- [Cursor](https://cursor.sh) for AI-powered code editing
+- [Vercel](https://vercel.com) for hosting the application 
