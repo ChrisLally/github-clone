@@ -2,7 +2,7 @@
 
 A modern, responsive GitHub UI clone built with Next.js, React, and Tailwind CSS. This project aims to recreate the GitHub interface with high fidelity while maintaining a clean, modular codebase.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Make your <a href="https://twitter.com/lovable_dev?ref_src=twsrc%5Etfw">@lovable_dev</a> / Bolt / v0 / Cursor / Replit websites look beautiful <a href="https://t.co/1WmNXPlphl">pic.twitter.com/1WmNXPlphl</a></p>&mdash; Daniel Dhawan (@daniel_dhawan) <a href="https://twitter.com/daniel_dhawan/status/1872766766910455989?ref_src=twsrc%5Etfw">December 27, 2024</a></blockquote>
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Make your <a href="https://twitter.com/lovable_dev?ref_src=twsrc%5Etfw">@lovable_dev</a> / Bolt / v0 / Cursor / Replit websites look beautiful <a href="https://t.co/1WmNXPlphl">pic.twitter.com/1WmNXPlphl</a></p>&mdash; Daniel Dhawan (@daniel_dhawan) <a href="https://twitter.com/daniel_dhawan/status/1872766766910455989?ref_src=twsrc%5Etfw">December 27, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 🚀 Live Demo
 
