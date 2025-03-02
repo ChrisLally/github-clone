@@ -2,7 +2,7 @@
 
 A modern, responsive GitHub UI clone built with Next.js 15, React, Tailwind CSS 3, and shadcn/ui components. This project aims to recreate the GitHub interface with a focus on clean code and component-based architecture.
 
-![GitHub Clone Screenshot](https://github.com/ChrisLally/github-clone/public/screenshot.png)
+![GitHub Clone Screenshot](https://raw.githubusercontent.com/ChrisLally/github-clone/refs/heads/main/public/screenshot.png)
 
 ## Live Demo
 
